@@ -16,7 +16,7 @@
     },
     "WEB_CONCURRENCY": {
       "description": "The number of processes to run.",
-      "value": 3
+      "value": "3"
     }
   },
   "addons": [
