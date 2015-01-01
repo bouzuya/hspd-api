@@ -8,6 +8,10 @@ This product is one of [the bouzuya's shuburi][shuburi]. The product was release
 
 MIT
 
+# Heroku Button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # Author
 
 [bouzuya][] &lt;[m@bouzuya.net][email]&gt; ([bouzuya.net][url])

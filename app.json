@@ -1,0 +1,25 @@
+{
+  "name": "hspd API",
+  "description": "An API server for hspd : hubot script per day",
+  "keywords": [
+    "bouzuya",
+    "hspd",
+    "hubot-scripts",
+    "hubot"
+  ],
+  "website": "https://github.com/bouzuya/hspd-api",
+  "repository": "https://github.com/bouzuya/hspd-api",
+  "env": {
+    "SECRET_KEY_BASE": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": 3
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
