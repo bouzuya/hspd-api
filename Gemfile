@@ -15,6 +15,7 @@ group :development, :test do
   gem 'guard'
   gem 'rb-readline'
   gem 'rspec-rails', '~> 3.0'
+  gem 'shoulda-matchers'
   gem 'spring'
   gem 'sqlite3'
 end
