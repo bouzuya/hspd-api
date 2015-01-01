@@ -9,7 +9,7 @@ gem 'rails', '4.2.0'
 
 group :development, :test do
   gem 'byebug'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'guard'
   gem 'guard-rspec'
   gem 'rb-readline'
