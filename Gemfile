@@ -8,10 +8,11 @@ gem 'rails_12factor'
 gem 'rails', '4.2.0'
 
 group :development, :test do
+  gem 'annotate'
   gem 'byebug'
   gem 'factory_girl_rails'
-  gem 'guard'
   gem 'guard-rspec'
+  gem 'guard'
   gem 'rb-readline'
   gem 'rspec-rails', '~> 3.0'
   gem 'spring'
