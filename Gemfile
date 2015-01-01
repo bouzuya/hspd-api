@@ -10,6 +10,7 @@ gem 'rails', '4.2.0'
 group :development, :test do
   gem 'byebug'
   gem 'rb-readline'
+  gem 'rspec-rails', '~> 3.0'
   gem 'spring'
   gem 'sqlite3'
 end
