@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 
+gem 'aws-sdk'
 gem 'jbuilder', '~> 2.0'
 gem 'rack-timeout'
 gem 'rails_12factor'
