@@ -14,6 +14,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard'
   gem 'rb-readline'
+  gem 'rspec-its'
   gem 'rspec-rails', '~> 3.0'
   gem 'shoulda-matchers'
   gem 'spring'
