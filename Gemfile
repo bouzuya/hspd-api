@@ -13,6 +13,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'guard'
+  gem 'json_expressions'
   gem 'rb-readline'
   gem 'rspec-its'
   gem 'rspec-rails', '~> 3.0'
