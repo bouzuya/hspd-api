@@ -10,6 +10,24 @@
   "website": "https://github.com/bouzuya/hspd-api",
   "repository": "https://github.com/bouzuya/hspd-api",
   "env": {
+    "AWS_ACCESS_KEY_ID": {
+      "description": "The AWS access key id to fetch the scripts.json"
+    },
+    "AWS_REGION": {
+      "description": "The AWS region to fetch the scripts.json",
+      "value": "ap-northeast-1"
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "The AWS secret access key to fetch the scripts.json"
+    },
+    "BUCKET_NAME": {
+      "description": "The bucket name for scripts.json",
+      "value": "hspd"
+    },
+    "OBJECT_KEY": {
+      "description": "The key for scripts.json",
+      "value": "scripts.json"
+    },
     "SECRET_KEY_BASE": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": "secret"
@@ -20,6 +38,8 @@
     }
   },
   "addons": [
-    "heroku-postgresql"
+    "heroku-postgresql",
+    "scheduler"
   ]
 }
+
