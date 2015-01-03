@@ -19,7 +19,7 @@ FactoryGirl.define do
     deprecated false
     image 'http://example.com/image.png'
     name 'hubot-xxx'
-    number 1
+    sequence(:number)
     repository 'http://example.com/hubot-xxx'
   end
 end
