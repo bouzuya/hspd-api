@@ -14,8 +14,14 @@
 #
 
 class HubotScript < ActiveRecord::Base
-  validates :image, format: { with: /\Ahttps?:\/\// }
-  validates :name, format: { with: /\Ahubot-/ }
-  validates :number, numericality: { only_integer: true, greater_than: 0 }
+  validates :image, format: { with: /\Ahttps?:\/\//, allow_nil: true }
+  validates :name,
+            format: { with: /\Ahubot-/ },
+            presence: true,
+            uniqueness: true
+  validates :number,
+            numericality: { only_integer: true, greater_than: 0 },
+            presence: true,
+            uniqueness: true
   validates :repository, format: { with: /\A(?:git|https?):\/\// }
 end
