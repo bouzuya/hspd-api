@@ -12,6 +12,7 @@ gem 'rails', '4.2.0'
 group :development, :test do
   gem 'annotate'
   gem 'byebug'
+  gem 'faker'
   gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'guard'
