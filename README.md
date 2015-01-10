@@ -42,6 +42,10 @@ $ bin/rake hubot_scripts:fetch
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+# Badge
+
+[![Circle CI][circle-ci-badge]][circle-ci]
+
 # License
 
 [MIT](LICENSE)
@@ -51,6 +55,9 @@ $ bin/rake hubot_scripts:fetch
 [bouzuya][] &lt;[m@bouzuya.net][email]&gt; ([bouzuya.net][url])
 
 [shuburi]: http://shuburi.org/
+[circle-ci]: https://circleci.com/gh/bouzuya/hspd-api
+[circle-ci-badge]: https://circleci.com/gh/bouzuya/hspd-api.svg?style=svg
 [bouzuya]: https://github.com/bouzuya/
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
+
