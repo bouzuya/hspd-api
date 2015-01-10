@@ -18,7 +18,7 @@ FactoryGirl.define do
     date "2015-01-01 20:46:59"
     deprecated false
     image 'http://example.com/image.png'
-    name 'hubot-xxx'
+    name { 'hubot-' + Faker::Commerce.color.gsub(' ', '') }
     sequence(:number)
     repository 'http://example.com/hubot-xxx'
   end
