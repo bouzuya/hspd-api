@@ -4,6 +4,8 @@ An API server for the hspd : hubot script per day.
 
 This product is one of [the bouzuya's shuburi][shuburi]. The product was released in 2015-W01.
 
+Demo: [hspd-api.herokuapp.com](https://hspd-api.herokuapp.com/hubot_scripts)
+
 # Configuration (Environment Variables)
 
 See [app.json](app.json).
@@ -60,4 +62,3 @@ $ bin/rake hubot_scripts:fetch
 [bouzuya]: https://github.com/bouzuya/
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
-
